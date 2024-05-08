@@ -15,5 +15,4 @@ const auth = async (req, res, next) => {
     res.send({ msg: "you are not authorized " });
   }
 };
-// exporting authentication middleware
 module.exports = { auth };

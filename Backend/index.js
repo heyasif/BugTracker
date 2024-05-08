@@ -12,7 +12,7 @@ app.use("/api", userRouter);
 
 app.get("/", (req, res) => {
     try {
-      res.status(200).send({ msg: "Server is Runnning" });
+      res.status(200).send({ msg: "This is Our Homepage." });
     } catch (error) {
       console.log("Error", error);
     }
