@@ -30,7 +30,7 @@ const Tracker = () => {
       const token = localStorage.getItem("token");
       try {
         const response = await axios.get(
-          "hhttps://bugtracker-2.onrender.com/api/bugs",
+          "https://bugtracker-2.onrender.com/api/bugs",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -69,7 +69,7 @@ const Tracker = () => {
     const token = localStorage.getItem("token");
     try {
       const response = await axios.post(
-        "hhttps://bugtracker-2.onrender.com/api/bugs",
+        "https://bugtracker-2.onrender.com/api/bugs",
         {
           title,
           description,
