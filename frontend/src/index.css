@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  /* font-size: 16px; */
+
+  /* ,, */
+}
+.body {
+  background-color: #67c6e3;
+  height: 100vh;
+}
+h1 {
+  font-family: Merriweather, serif;
+  /* font-size: 20px; */
+}
